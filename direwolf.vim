@@ -6,8 +6,6 @@
 hi clear
 syntax reset
 let g:colors_name = "direwolf"
-set background=light
-
 hi Boolean gui=bold guifg=#707070 guibg=NONE
 hi ColorColumn gui=NONE guifg=NONE guibg=#f5f5f5
 hi Comment gui=NONE guifg=#969696 guibg=NONE
@@ -56,7 +54,7 @@ hi StorageClass gui=NONE guifg=#4a4a4a guibg=NONE
 hi String gui=NONE guifg=#707070 guibg=NONE
 hi TabLine gui=NONE guifg=#141326 guibg=#f5f3f7
 hi TabLineFill gui=NONE guifg=NONE guibg=#f5f3f7
-hi TabLineSel gui=NONE guifg=#ffffff guibg=#187efb
+hi TabLineSel gui=NONE guifg=#000000 guibg=#add5ff
 hi Title gui=NONE guifg=#707070 guibg=NONE
 hi Todo gui=standout guifg=NONE guibg=NONE
 hi Type gui=bold guifg=#4a4a4a guibg=NONE
