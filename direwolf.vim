@@ -8,11 +8,11 @@ syntax reset
 let g:colors_name = "direwolf"
 hi Boolean gui=bold guifg=#707070 guibg=NONE
 hi ColorColumn gui=NONE guifg=NONE guibg=#f5f5f5
-hi Comment gui=NONE guifg=#969696 guibg=NONE
+hi Comment gui=italic guifg=#969696 guibg=NONE
 hi Conceal gui=NONE guifg=#707070 guibg=NONE
 hi Conditional gui=NONE guifg=#4a4a4a guibg=NONE
 hi Constant gui=NONE guifg=#707070 guibg=NONE
-hi Cursor gui=reverse guifg=NONE guibg=NONE
+hi Cursor gui=reverse guifg=#649735 guibg=NONE
 hi CursorColumn gui=NONE guifg=NONE guibg=#f5f5f5
 hi CursorLine gui=NONE guifg=NONE guibg=#dbdbdc
 hi CursorLineNr gui=NONE guifg=#969696 guibg=NONE
@@ -48,8 +48,8 @@ hi SpellCap gui=undercurl guisp=NONE guifg=NONE guibg=NONE
 hi SpellLocal gui=undercurl guisp=NONE guifg=NONE guibg=#f0fff0
 hi SpellRare gui=undercurl guisp=NONE guifg=NONE guibg=#ededed
 hi Statement gui=bold guifg=#4a4a4a guibg=NONE
-hi StatusLine gui=NONE guifg=#262626 guibg=#ededed
-hi StatusLineNC gui=NONE guifg=#969696 guibg=#ededed
+hi StatusLine guifg=#262626 guibg=#dedede gui=bold
+hi StatusLineNC guifg=#969696 guibg=#dedede gui=bold
 hi StorageClass gui=NONE guifg=#4a4a4a guibg=NONE
 hi String gui=NONE guifg=#707070 guibg=NONE
 hi TabLine gui=NONE guifg=#141326 guibg=#f5f3f7
